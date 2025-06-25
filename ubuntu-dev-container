@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu 24.04 DevPod",
+  "image": "ubuntu:24.04",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "apt update && apt install -y bash curl",
+  "remoteUser": "root"
+}
